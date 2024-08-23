@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class inputfile extends Component
+class textarea extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class inputfile extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.input-file');
+        return view('components.text-area');
     }
 }
